@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T13:54:03.755Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.7.5" etag="sxQaaop-enlkQi_aeALP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T15:51:14.535Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="GGJ5yPdsP_2A9w1UNEIo" version="21.7.5" type="github" pages="2">
   <diagram name="Page-1" id="o1pbn0FOWJ0MRCh8FeG6">
-    <mxGraphModel>
+    <mxGraphModel dx="1230" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ShPZ2oS8lOnbpsvyef3e-2" value="&lt;h1&gt;Requirements&lt;/h1&gt;&lt;p&gt;Investment management:&lt;/p&gt;&lt;p&gt;- When user provides information for registration, an user account is created&lt;/p&gt;&lt;p&gt;- When user provide credential to log in, the user is able to login&lt;/p&gt;&lt;p&gt;- When user provide information to create an investment platform, an investment platform is created with account number&lt;/p&gt;&lt;p&gt;- When user provide information to create an investment account under an investment platform, an investment account is created&lt;/p&gt;&lt;p&gt;- When user provide information to create a trade, a trade is created under an investment account. The currency can either be USD or CAD&lt;/p&gt;&lt;p&gt;- When user query the trade information for a ticker, all available information is returned&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="800" height="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0CF6vf5HtmAV_x-mRJ9R" name="Page-2">
+    <mxGraphModel dx="1230" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="6_5ILPPCKP6vn-Kexafy-1" target="6_5ILPPCKP6vn-Kexafy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-1" value="User" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="6_5ILPPCKP6vn-Kexafy-2" target="6_5ILPPCKP6vn-Kexafy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-2" value="Investment platform" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="6_5ILPPCKP6vn-Kexafy-3" target="6_5ILPPCKP6vn-Kexafy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-3" value="Investment account" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_5ILPPCKP6vn-Kexafy-6" value="Ticker" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
