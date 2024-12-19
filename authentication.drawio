@@ -1,9 +1,136 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="25.0.3">
   <diagram name="Page-1" id="DPbZMUq7_roydXOTwlSF">
-    <mxGraphModel>
+    <mxGraphModel dx="2617" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-1" value="Mutual Authentication using certificate" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-2" value="Server A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-3" value="Server B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="LdRgHpzYFJxsr3d9Sukn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="900" as="sourcePoint" />
+            <mxPoint x="160" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="890" as="sourcePoint" />
+            <mxPoint x="659.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="240" as="sourcePoint" />
+            <mxPoint x="660" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-7" value="Server A id encrypted with Server B&#39;s public key" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-10" value="validates message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0526" relative="1" as="geometry">
+            <mxPoint x="660" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="270" />
+              <mxPoint x="730" y="320" />
+            </Array>
+            <mxPoint x="660" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-11" value="Decrypt message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0526" relative="1" as="geometry">
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="340" />
+              <mxPoint x="730" y="390" />
+            </Array>
+            <mxPoint x="660" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-13" value="Find public key of Server A by id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0526" relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="410" />
+              <mxPoint x="730" y="460" />
+            </Array>
+            <mxPoint x="660" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-14" value="Encrypt Server B id with Server A&#39;s public key" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0526" relative="1" as="geometry">
+            <mxPoint x="660" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="480" />
+              <mxPoint x="730" y="530" />
+            </Array>
+            <mxPoint x="660" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="560" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-16" value="Message" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-17" value="validates message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="-40" relative="1" as="geometry">
+            <mxPoint x="140" y="590" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="590" />
+              <mxPoint x="80" y="640" />
+            </Array>
+            <mxPoint x="140" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-18" value="Decrypt message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="-40" relative="1" as="geometry">
+            <mxPoint x="140" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="660" />
+              <mxPoint x="80" y="710" />
+            </Array>
+            <mxPoint x="140" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-19" value="Find Server B by id" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0588" y="-40" relative="1" as="geometry">
+            <mxPoint x="140" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="730" />
+              <mxPoint x="80" y="780" />
+            </Array>
+            <mxPoint x="140" y="780" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LdRgHpzYFJxsr3d9Sukn-20" value="Auth complete" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0385" y="-10" relative="1" as="geometry">
+            <mxPoint x="140" y="800" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="800" />
+              <mxPoint x="370" y="800" />
+            </Array>
+            <mxPoint x="660" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
